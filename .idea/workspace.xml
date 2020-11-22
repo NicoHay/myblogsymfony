@@ -131,7 +131,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/admin" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="DEFAULT" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -159,7 +159,7 @@
       <workItem from="1605005487830" duration="17898000" />
       <workItem from="1605283500360" duration="36000" />
       <workItem from="1605283660780" duration="151000" />
-      <workItem from="1606042724166" duration="2382000" />
+      <workItem from="1606042724166" duration="8917000" />
     </task>
     <servers />
   </component>
@@ -171,9 +171,10 @@
       <screen x="1920" y="0" width="1680" height="1020" />
     </state>
     <state x="2565" y="194" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050/1920.0.1680.1020@1920.0.1680.1020" timestamp="1604571801040" />
-    <state x="1098" y="283" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1605024258088">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="3144" y="-275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1606049869893">
+      <screen x="1680" y="-655" width="2560" height="1409" />
     </state>
+    <state x="3144" y="-275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1680.1020/1680.-655.2560.1409@1680.-655.2560.1409" timestamp="1606049869893" />
     <state x="1098" y="283" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1050/1920.0.1680.1020@0.0.1920.1050" timestamp="1605024258088" />
     <state x="1003" y="306" key="FileChooserDialogImpl" timestamp="1604568005943">
       <screen x="0" y="0" width="1920" height="1050" />
@@ -183,9 +184,10 @@
       <screen x="1920" y="0" width="1680" height="1020" />
     </state>
     <state x="2564" y="238" key="NewPhpClassDialog/0.0.1920.1050/1920.0.1680.1020@1920.0.1680.1020" timestamp="1604572594049" />
-    <state x="45" y="180" key="SettingsEditor" timestamp="1605283809275">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="2820" y="-86" key="SettingsEditor" timestamp="1606049062758">
+      <screen x="1680" y="-655" width="2560" height="1409" />
     </state>
+    <state x="2820" y="-86" key="SettingsEditor/0.0.1680.1020/1680.-655.2560.1409@1680.-655.2560.1409" timestamp="1606049062758" />
     <state x="45" y="180" key="SettingsEditor/0.0.1920.1050/1920.0.1680.1020@0.0.1920.1050" timestamp="1605283809275" />
     <state x="2309" y="285" key="SettingsEditor/0.0.1920.1050/1920.0.1680.1020@1920.0.1680.1020" timestamp="1604923435564" />
     <state width="498" height="444" key="SwitcherDM" timestamp="1604577900345">
