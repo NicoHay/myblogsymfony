@@ -41,17 +41,17 @@ class HomeController extends AbstractController
      */
     public function show(Post $post ,Request $request , EntityManagerInterface $em)
     {
-        $comment = new Comment();
-        $form = $this->createForm(CommentType::class, $comment);
+        $comment    = new Comment();
+        $form       = $this->createForm(CommentType::class, $comment);
         $comment->setCreatedAt( new DateTime());   // attribut la date
         $comment->setPost($post);                   // attache a un post
-        $form->handleRequest($request);             // recupère le formulaire
-                                                    //check si le formulaire a ete envoyer
+        $form->handleRequest($request);             // recupère le formulaire poster
+
+        //check si le formulaire a ete envoyer
         if ($form->isSubmitted() && $form->isValid()){
             $em->persist($comment);                 // rend le comment persistent
             $em->flush();                           // enregistre en bdd
         }
-
         return $this->render('home/post.html.twig', [
             'post'              => $post,
             'form'              => $form->createView()
