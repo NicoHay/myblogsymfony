@@ -1,0 +1,41 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Details de l'article{% endblock %}
+
+{% block body %}
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-12">
+                <a href="/" class="btn btn-primary">Retour a la liste des articles</a>
+                <img src="https://via.placeholder.com/350"  alt="...">
+                <h1 class="">{{ post.title }}</h1>
+                <p class="">{{ post.content}}</p>
+                <p class="">{{ post.author}} - Cree le {{ post.createdAt | date("d/m/Y") }}</p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+
+                {{ form(form) }}
+            </div>
+            <div class="col-md-9">
+                {% for comment in post.comments %}
+                    <div class="card" >
+                        <div class="card-body">
+                            <h5 class="card-title">{{ comment.author }}</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Le {{ comment.createdAt | date("d/m/Y") }}</h6>
+                            <p class="card-text">{{ comment.content}}.</p>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+
+
+    </div>
+
+{% endblock %}
